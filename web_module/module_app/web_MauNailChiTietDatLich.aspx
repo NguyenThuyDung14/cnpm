@@ -2,9 +2,9 @@
 
 <%@ Register Src="~/web_usercontrol/menu_header.ascx" TagPrefix="uc1" TagName="linqheader" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="../../css/css_Ngan/mainailboxchitiet2.css" rel="stylesheet" />
-    <link href="../../css/css_Ngan/ribon.css" rel="stylesheet" />
+    <link href="../../css/mainailboxchitiet2.css" rel="stylesheet" />
     <link href="../../css/Rating.css" rel="stylesheet" />
+    <link href="../../css/ribon.css" rel="stylesheet" />
     <script src="../../admin_js/sweetalert.min.js"></script>
     <script>
         function myChonDichVu(id) {

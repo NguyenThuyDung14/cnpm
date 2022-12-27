@@ -2,15 +2,13 @@
 
 <%@ Register Src="~/web_usercontrol/menu_header.ascx" TagPrefix="uc1" TagName="linqheader" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="../../css/style.css" rel="stylesheet" />
-    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet" />
-    <%--<script src="../../js/bootstrap.min.js"></script>--%>
-    <%--<script src="../../js/jquery.min.js"></script>--%>
-    <script src="../../js/owl.carousel.min.js"></script>
-    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="../../OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <style>
@@ -72,7 +70,7 @@
             .block-dichvu a span {
                 text-align: center;
                 font-weight: 700;
-                font-size: 33px;
+                font-size: 40px;
                 text-decoration: none !important;
                 color: black;
             }
@@ -95,19 +93,19 @@
 
         .block-chinh2 {
             background-size: cover;
-            background-image: url(App_image/block-chinh.png);
+            background-image: url(App_image/Dichvu/background.png);
             padding: 43px 0;
             background-color: #ffffff;
-            margin: 5% 3% 3% 3%;
+            margin: 3% 3% 3% 3%;
             background-position: center;
-            box-shadow: 0px 7px 9px rgb(0 0 0 / 25%);
-            border-radius: 6px;
+            box-shadow: 0px 7px 20px rgb(0 0 0 / 25%);
+            border-radius: 50px;
         }
 
             .block-chinh2 a img {
                 border-radius: 30px;
-                width: 15rem;
-                height: 15rem;
+                width: 17rem;
+                height: 17rem;
                 padding: unset;
                 object-fit: cover;
                 box-shadow: -9px 16px 23px #e3e4fe;
@@ -126,9 +124,16 @@
             width: 57%;
             margin-top: 40px;
             position: relative;
-            margin-bottom: -110px;
+            margin-bottom: -94px;
             font-size: 53px;
             border-radius: 15px;
+            box-shadow: 0px 0px 13px #0000005c;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
         }
 
         .icon-infor i {
@@ -179,79 +184,52 @@
                 <img src="App_image/Slide-3.jpg" />
             </div>
             <div class="item">
-                <img src="App_image/Slide-4.jpg" />
+                <img src="App_image/Slide.jpg" />
+            </div>
+            <div class="item">
+                <img src="App_image/Slide-1.jpg" />
+            </div>
+            <div class="item">
+                <img src="App_image/Slide-2.jpg" />
+            </div>
+            <div class="item">
+                <img src="App_image/Slide-3.jpg" />
             </div>
         </div>
-
         <div class="block-dichvu">
-            <div class="row">
-                <a href="/ma-qr" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/qr-code.jpg" />
-                    <span>Mã QR</span>
-                </a>
-                <a href="/ma-giam-gia" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/discounts.jpg" />
-                    <span>Giảm giá MỚI</span>
-                </a>
-                <a href="/tin-tuc-dich-vu" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/nail.jpg" />
-                    <span>Dịch vụ</span>
-                </a>
-                <a href="/app-cap-nhat-xu-huong" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/diamond.jpg" />
-                    <span>Xu hướng</span>
-                </a>
-            </div>
-            <div class="row">
-                <a href="/san-pham-dong-gia" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/69k.png" />
-                    <span>Đồng giá 69k</span>
-                </a>
-                <a href="/thong-tin-chi-nhanh" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/living-room.jpg" />
-                    <span>chi nhánh</span>
-                </a>
-                <a href="/thong-tin-don-hang" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/clock.jpg" />
-                    <span>Thông tin bill</span>
-                </a>
-                <a href="/hom-thu" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/checklist.jpg" />
-                    <span>Góp ý</span>
-                </a>
-            </div>
             <div class="title-chinh">
                 <div class="ten">DỊCH VỤ TẠI SALA</div>
             </div>
             <div class="block-chinh2">
                 <div class="row">
-                    <a href="/menu-dich-vu" class="col-4">
+                    <a href="/menu-dich-vu" class="col-5">
                         <img class="pure-material-button-contained" src="App_image/icon/icon-dichvu.jpg" />
                         <span>Menu dịch vụ</span>
                     </a>
-                    <a href="/album-nails" class="col-4">
+                    <a href="/album-nails" class="col-5">
                         <img class="pure-material-button-contained" src="App_image/icon/icon-album.jpg" />
                         <span>Album mẫu nails</span>
                     </a>
-
+                </div>
+                <div class="row">
                     <a href="/hoa-don-dat-lich" class="col-4">
                         <img class="pure-material-button-contained" src="App_image/icon/icon-datlich2.jpg" />
                         <span>Đặt lịch</span>
                     </a>
-                </div>
-                <div class="row">
-                    <a href="/ma-giam-gia" class="col-4">
+                    <a href="/ma-giam-gia" class="col-5">
                         <img class="pure-material-button-contained" src="App_image/icon/icon-vocher.jpg" />
                         <span>Mã giảm giá</span>
                     </a>
-                    <a href="/nails-box" class="col-4">
+                </div>
+                <div class="row">
+                    <a href="/nails-box" class="col-5">
                         <img class="pure-material-button-contained" src="App_image/icon/icon-nailbox.jpg" />
                         <span>Nails box</span>
                     </a>
-                    <a href="/gioi-thieu-ban-be" class="col-4">
-                        <img class="pure-material-button-contained " src="App_image/icon/icon-share.jpg" />
-                        <span>Giới thiệu bạn bè</span>
-                    </a>
+                    <a href="/hom-thu" class="col-5">
+                    <img class="pure-material-button-contained" src="App_image/icon/checklist.jpg" />
+                    <span>Góp ý</span>
+                </a>
                 </div>
             </div>
         </div>

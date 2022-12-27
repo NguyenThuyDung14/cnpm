@@ -2,7 +2,7 @@
 
 <%@ Register Src="~/web_usercontrol/menu_header.ascx" TagPrefix="uc1" TagName="linqheader" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="../../css_Lai/css_ThongTinKhachHang.css" rel="stylesheet" />
+    <link href="../../css/css_ThongTinKhachHang.css" rel="stylesheet" />
     <link href="../../css/style.css" rel="stylesheet" />
     <link href="../../css/footer.css" rel="stylesheet" />
     <style>
@@ -25,7 +25,7 @@
             <div class="header1">
                 <div class="header_add">
                     <img runat="server" id="img_avatar" src="../../App_image/Longin/longin_logo.png" />
-                    <span class="name" runat="server" id="txt_Ten">Nguyễn Thị Linh</span>
+                    <span class="name" runat="server" id="txt_Ten">Nguyễn Thùy Dung</span>
                     <div runat="server" class="header_hang" id="div_hang">
                         <span id="txt_Hang" runat="server">Hạng bạc</span>
                     </div>

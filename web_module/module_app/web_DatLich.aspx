@@ -2,8 +2,8 @@
 
 <%@ Register Src="~/web_usercontrol/menu_header.ascx" TagPrefix="uc1" TagName="linqheader" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="../../css_Lai/css_DatLich.css" rel="stylesheet" />
     <link href="../../css/footer.css" rel="stylesheet" />
+    <link href="../../css/css_DatLich.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="../../admin_js/sweetalert.min.js"></script>
     <script>

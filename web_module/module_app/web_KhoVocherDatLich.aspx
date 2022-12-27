@@ -2,7 +2,7 @@
 
 <%@ Register Src="~/web_usercontrol/menu_header.ascx" TagPrefix="uc1" TagName="linqheader" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="../../css_Lai/magiamgia2.css" rel="stylesheet" />
+    <link href="../../css/magiamgia2.css" rel="stylesheet" />
     <script src="../../admin_js/sweetalert.min.js"></script>
     <script>
         function myChon(id) {

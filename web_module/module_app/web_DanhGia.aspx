@@ -11,7 +11,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <style>
         .rating-stars {
-            /* width: 35px; */
             display: flex;
             border-radius: 5vmin;
             position: relative;
@@ -49,44 +48,11 @@
         <div class="container_form">
             <div class="submit_rate_form">
                 <div class="iconic">
-                    <p>Hoàng Lan</p>
+                    <p>Nguyễn Thùy Dung</p>
                 </div>
                 <div class="col-12">
                     <textarea placeholder="Nhập nội dung..." class="input_rate_box"></textarea>
                 </div>
-                <%--<div>
-                        <h2>Hãy bình chọn cho sala bạn nhé !</h2>
-                        <div class="rate_selection">
-                            
-                            <label class="container img_rate">
-                                <img src="../images/image_DanhGiaChiTiet/sao.png" />
-                                <h4>Chuyên nghiệp</h4>
-                                <input type="radio" checked="checked" name="radio">
-                                <span class="checkmark"></span>
-                            </label>
-                            
-                            <label class="container img_rate">
-                                <img src="../images/image_DanhGiaChiTiet/like.png" />
-                                <h4>Tuyệt vời</h4> 
-                                <input type="radio" checked="checked" name="radio">
-                                <span class="checkmark"></span>
-                            </label>
-
-                            <label class="container img_rate">
-                                <img class="attention" src="../images/image_DanhGiaChiTiet/tim.png" />
-                                <h4>Ân cần</h4>
-                                <input type="radio" checked="checked" name="radio">
-                                <span class="checkmark"></span>
-                            </label>
-                            
-                            <label class="container img_rate">
-                                <img src="../images/image_DanhGiaChiTiet/meman.png" />
-                                <h4>Mê mẩn</h4>  
-                                <input type="radio" checked="checked" name="radio">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>--%>
                 <h2>Hãy bình chọn cho sala bạn nhé !</h2>
                 <div class="rating-stars">
                     <input type="radio" name="rating" id="rs0001" checked="checked"><label for="rs0001"></label>
@@ -94,18 +60,7 @@
                     <input type="radio" name="rating" id="rs0003"><label for="rs0003"></label>
                     <input type="radio" name="rating" id="rs0004"><label for="rs0004"></label>
                     <input type="radio" name="rating" id="rs0005"><label for="rs0005"></label>
-                    <%--<span class="rating-counter"></span>--%>
                 </div>
-                <%--<div>
-                        <div class="container">
-                            <input type="checkbox" id="cbtest" />
-                            <label for="cbtest" class="check-box"></label>
-                        </div>
-                        <div>
-                            <img class="img_rate" src="../images/image_DanhGiaChiTiet/sao.png" />
-                            <h2>Tuyệt vời</h2>
-                        </div>
-                    </div>--%>
             </div>
             <a class="submit_rate">
                 <p>GỬI</p>
