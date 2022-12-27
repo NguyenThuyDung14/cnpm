@@ -2,7 +2,7 @@
 
 <%@ Register Src="~/web_usercontrol/menu_header.ascx" TagPrefix="uc1" TagName="linqheader" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="../../css_Lai/css_DatLich2.css" rel="stylesheet" />
+    <link href="../../css/css_DatLich2.css" rel="stylesheet" />
     <link href="../../css/footer.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">

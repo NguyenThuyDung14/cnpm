@@ -1,10 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AppMasterPage.master" AutoEventWireup="true" CodeFile="web_MauNailBox.aspx.cs" Inherits="web_module_module_app_web_MauNailBox" %>
 <%@ Register Src="~/web_usercontrol/menu_header.ascx" TagPrefix="uc1" TagName="linqheader" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <%--<link href="../../Dung_css/MauNailBox.css" rel="stylesheet" />
-    <link href="../../css/footer.css" rel="stylesheet" />--%>
-    <link href="../../css/css_Ngan/mainailboxchitiet.css" rel="stylesheet" />
-    <link href="../../css/css_Ngan/ribon.css" rel="stylesheet" />
+    <link href="../../css/mainailboxchitiet.css" rel="stylesheet" />
+    <link href="../../css/ribon.css" rel="stylesheet" />
     <script src="../../admin_js/sweetalert.min.js"></script>
     <script type="text/javascript">
         function themGioHang(id) {

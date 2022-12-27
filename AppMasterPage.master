@@ -59,12 +59,8 @@
             <a href="https://www.facebook.com/salanailsbeauty">
                 <div class="tab pink">
                     <img src="App_image/footer/messenger%20-%20Copy.png" />
-                    <p>Nhấn tin</p>
+                    <p>Nhắn tin</p>
                 </div>
-            </a>
-            <a href="thong-tin-chi-nhanh" class="tab yellow">
-                <img src="App_image/footer/chi-nhanh%20-%20Copy.png" />
-                <p style="padding: unset">Chi Nhánh</p>
             </a>
             <a href="/thong-tin-khach-hang">
                 <div class="tab teal">

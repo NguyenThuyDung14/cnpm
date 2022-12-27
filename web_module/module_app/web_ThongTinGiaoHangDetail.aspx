@@ -2,8 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <link href="../../css/footer.css" rel="stylesheet" />
-    <link href="../../css/css-Linh/ttghdetail.css" rel="stylesheet" />
-
+    <link href="../../css/ttghdetail.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -28,7 +27,7 @@
         <input class="input-ttgh" type="text" name="e" autocomplete="off" placeholder="Tên đường, toà nhà, số nhà" value="" />
         <p class="text-ttgh">Ghi chú</p>
         <input class="input-ttgh" type="text" name="f" autocomplete="off" placeholder="Ghi chú khi giao hàng" value="" />
-    <a class="btnhoanthanh">Hoàn Thành</a>
+        <a class="btnhoanthanh">Hoàn Thành</a>
     </div>
 </asp:Content>
 

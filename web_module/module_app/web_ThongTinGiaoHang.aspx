@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <link href="../../css/footer.css" rel="stylesheet" />
-    <link href="../../css/css-Linh/ttgh.css" rel="stylesheet" />
+    <link href="../../css/ttgh.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/55af28d6d7.js" crossorigin="anonymous"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">

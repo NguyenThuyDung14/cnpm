@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AppMasterPage.master" AutoEventWireup="true" CodeFile="web_ThietLapTaiKhoan.aspx.cs" Inherits="web_module_module_app_web_ThietLapTaiKhoan" %>
 <%@ Register Src="~/web_usercontrol/menu_header.ascx" TagPrefix="uc1" TagName="linqheader" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="../../css_Lai/css_ThietLapTaiKhoan.css" rel="stylesheet" />
+    <link href="../../css/css_ThietLapTaiKhoan.css" rel="stylesheet" />
     <script src="../../admin_js/sweetalert.min.js"></script>
     <link href="../../css/footer.css" rel="stylesheet" />
     <style>

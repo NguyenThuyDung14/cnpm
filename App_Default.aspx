@@ -1,12 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AppMasterPage.master" AutoEventWireup="true" CodeFile="App_Default.aspx.cs" Inherits="App_Defaul" %>
+
 <%@ Register Src="~/web_usercontrol/menu_header.ascx" TagPrefix="uc1" TagName="linqheader" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="../../css/style.css" rel="stylesheet" />
-    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <style>
@@ -94,10 +96,10 @@
             background-image: url(App_image/block-chinh.png);
             padding: 43px 0;
             background-color: #ffffff;
-            margin: 5% 3% 3% 3%;
+            margin: 3% 3% 3% 3%;
             background-position: center;
-            box-shadow: 0px 7px 9px rgb(0 0 0 / 25%);
-            border-radius: 6px;
+            box-shadow: 0px 7px 20px rgb(0 0 0 / 25%);
+            border-radius: 50px;
         }
 
             .block-chinh2 a img {
@@ -136,6 +138,23 @@
         .icon-infor {
             width: 18%;
         }
+
+        .dropdown-menu {
+            font-size: 39px;
+            height: 33rem;
+            width: 42rem;
+            position: absolute;
+            transform: translate3d(-160px, 38px, 0px);
+            text-align: end;
+            top: 2px;
+            left: -30rem;
+            will-change: transform
+        }
+
+        .dropdown {
+            text-align: center;
+            margin-right: 12px;
+        }
     </style>
     <div class="navabar">
         <span style="margin-left: 26%; margin-top: 19px;"><span style="font-family: 'Great Vibes'; font-size: 75px;">Sala</span><span style="margin-left: 25px; font-size: 42px;">NAILS & BEAUTY</span></span>
@@ -158,47 +177,11 @@
                 <img src="App_image/Slide-3.jpg" />
             </div>
             <div class="item">
-                <img src="App_image/Slide-1.jpg" />
+                <img src="App_image/Slide-4.jpg" />
             </div>
         </div>
 
         <div class="block-dichvu">
-            <div class="row">
-                <a href="/ma-qr" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/qr-code.jpg" />
-                    <span>Mã QR</span>
-                </a>
-                <a href="/ma-giam-gia" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/discounts.jpg" />
-                    <span>Giảm giá MỚI</span>
-                </a>
-                <a href="/tin-tuc-dich-vu" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/nail.jpg" />
-                    <span>Dịch vụ</span>
-                </a>
-                <a href="/app-cap-nhat-xu-huong" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/diamond.jpg" />
-                    <span>Xu hướng</span>
-                </a>
-            </div>
-            <div class="row">
-                <a href="/san-pham-dong-gia" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/69k.png" />
-                    <span>Đồng giá 69k</span>
-                </a>
-                <a href="/thong-tin-chi-nhanh" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/living-room.jpg" />
-                    <span>chi nhánh</span>
-                </a>
-                <a href="/thong-tin-don-hang" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/clock.jpg" />
-                    <span>Thông tin bill</span>
-                </a>
-                <a href="/hom-thu" class="col-3">
-                    <img class="pure-material-button-contained" src="App_image/icon/checklist.jpg" />
-                    <span>Góp ý</span>
-                </a>
-            </div>
             <div class="title-chinh">
                 <div class="ten">DỊCH VỤ TẠI SALA</div>
             </div>
