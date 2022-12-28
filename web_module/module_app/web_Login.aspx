@@ -15,8 +15,7 @@
                     <img src="../../app_image/Longin/longin_logo.png" />
                 </div>
                 <form class="form_login" runat="server">
-                  <%--  <label>Email</label>
-                    <input runat="server" type="text" id="txt_taikhoan" />--%>
+                 
                     <label>Số điện thoại</label>
                     <input type="text" id="txt_SoDienThoai" runat="server" />
                     <div class="text_login">
